@@ -25,7 +25,7 @@ for i, directory_path in enumerate(use_case_directory_paths):
         cell.Range.InlineShapes.AddOLEObject(
             ClassType="Package",
             FileName=os.path.abspath(text_file),
-            DisplayAsIcon=True,
+            DisplayAsIcon=True
         )
 
 doc.Save()
