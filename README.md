@@ -38,8 +38,10 @@ This automated process eliminates the need for manual intervention, significantl
 ### Sample result
 ![image](https://github.com/jl-chan/AutoDocAttach/assets/115695686/e5686bd3-bd4f-480e-827e-d213c28cbadf)
 
-### To Imporve
+### [Closed] To Imporve
 1. Able to append new object(s) at the bottom of the cell.
 
 The decision to 'attach artefacts in reverse order' stemmed from the difficulty encountered while appending new objects within the designated, same cell at (3, 4) in the table. The code consistently added objects at the beginning of the cell, disrupting the intended sequence. Rather than appending objects at the bottom of the same cell, a workaround was implemented to preserve the sequence identical to that within the directories. This workaround involves inserting object(s) in a reversed order within the specified cell, ensuring that artefacts align in the desired sequence within the cell (3, 4).
 
+>\[Resolve\] 
+Refer to ![automate_sfat_no_reverse.py](https://github.com/jl-chan/AutoDocAttach/blob/main/automate_sfat_no_reverse.py)
